@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'El Messiri', sans-serif;
+}
+body{background-color: rgb(0, 0, 0);}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width:70%;
+    top: 50px;
+    left:15%;
+}
+
+
+
+
+
+
+.section1{
+    background-color: rgb(229, 233, 14);
+    display: flex;
+    align-content: space-between;
+    position: relative;
+    height: 80px;
+    border-radius: 10px;
+
+}
+.section1 h1{
+    position:absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.section1 form{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.section1 label{
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    float: right;
+}
+
+.section1 input{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(253, 253, 253, 0.781);
+    direction: rtl;
+}
+
+
+
+
+
+
+.section2{
+    display: flex;
+    position: relative;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10px;
+}
+  ul{
+      list-style: none;
+      width: 70%;
+      height: 90%;
+  }
+
+li{
+    position:relative;
+    background-color: rgba(150, 216, 65, 0.904);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+li button{
+padding: 5px 10px;
+border-radius: 8px;
+font-size: 15px;
+}
+li span{
+    font-size: 18px;
+}
+
+
+
+
+.section3{
+    background-color: rgb(116, 149, 221);
+    display: flex;
+    bottom: 0;
+    margin-top:50px;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    flex-wrap: nowrap;
+
+}
+
+.hiden{
+    margin-right: 20px;
+}
+.hiden label{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.add{
+    margin-left: 30px;
+}
+
+.add form label{
+    font-size: 18px;
+    float: right;
+    margin:5px 0 0 10px;
+}
+
+.add form input{
+    padding: 5px;
+    float: right;
+    border-radius: 10px;
+    direction: rtl;
+}
+
+#btn{
+    float: left;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+
+
+    .section{
+        width:100%;
+        left: 0;
+        top: 0;
+    }  
+
+
+    .section1{
+        height: 50px;
+        width:inherit;
+        border-radius: unset;
+    }
+    .section1 h1{
+        right: 20px;
+        top: 12px;
+        font-size: 20px;
+    }
+    
+    .section1 form{
+        top: 10px;
+        left: 10px;
+    }
+    .section1 label{
+        font-size: 13px;
+        top: 5px;
+        left: 5px;
+    }
+    
+    .section1 input{
+        padding: 2px;
+        border-radius: 5px;
+        width: 100px;
+        top: 2px;
+    }
+    
+    
+    
+    
+    
+    
+    .section2{
+        margin-top: 5px;
+    }
+      ul{
+          width: 80%;
+          height: 90%;
+      }
+    
+    li{
+        padding: 5px;
+        margin: 8px;
+        border-radius: 5px;
+    }
+    
+    li button{
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    }
+    li span{
+        font-size: 15px;
+    }
+    
+    
+    
+    
+    .section3{
+        margin-top:30px;
+        height: 50px;
+        width: 100%;
+        border-radius:unset;
+    }
+    
+    .hiden{
+        position: relative;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+    .hiden input{
+        position: relative;
+        top: 3px;
+    }
+    .hiden label{
+        position: relative;
+        margin-right: 5px;
+        font-size: 13px;
+    }
+
+
+    
+    .add{
+        margin-left: 10px;
+    }
+    
+    .add form label{
+        font-size: 13px;
+        float: right;
+        margin:5px 0 0 5px;
+    }
+    
+    .add form input{
+        padding: 2px;
+        border-radius: 5px;
+        width: 100px;
+    }
+    
+    #btn{
+        position: relative;
+        padding: 2px 5px;
+        margin-right: 5px;
+        font-size: 12px;
+        width:30px;
+        top: 3px;
+    }
+    
+    
+}
